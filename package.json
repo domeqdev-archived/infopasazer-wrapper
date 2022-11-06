@@ -1,6 +1,6 @@
 {
   "name": "infopasazer-wrapper-v2",
-  "version": "2.2.2-slay",
+  "version": "21.37.0-papiesz",
   "description": "Wrapper for infopasazer.intercity.pl v2",
   "homepage": "https://github.com/domeqdev-archived/infopasazer-wrapper#readme",
   "license": "MIT",
@@ -8,24 +8,8 @@
     "type": "git",
     "url": "https://github.com/domeqdev-archived/infopasazer-wrapper.git"
   },
-  "type": "module",
-  "module": "./index.js",
   "main": "./index.js",
-  "types": "./types/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./index.js",
-      "types": "./types/index.d.ts"
-    }
-  },
-  "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
-  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
-  },
-  "devDependencies": {
-    "typescript": "^4.7.4"
   }
 }

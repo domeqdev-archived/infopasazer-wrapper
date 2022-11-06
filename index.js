@@ -1,6 +1,9 @@
-import stations from "./lib/stations.js";
-import trains from "./lib/trains.js";
-import train from "./lib/train.js";
+const stations = require('./lib/stations');
+const trains = require('./lib/trains');
+const train = require('./lib/train');
 
-export default { stations, trains, train };
-export { stations, trains, train };
+module.exports = {
+    stations,
+    trains,
+    train
+};
